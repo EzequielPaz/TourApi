@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EzeAraPichi\\Desktop\\API REST\\hotelAPI\\hotelAPI.csproj": {}
+    "C:\\Users\\EzeAraPichi\\Desktop\\TourApi\\TourApi\\hotelAPI\\hotelAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EzeAraPichi\\Desktop\\API REST\\hotelAPI\\hotelAPI.csproj": {
+    "C:\\Users\\EzeAraPichi\\Desktop\\TourApi\\TourApi\\hotelAPI\\hotelAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EzeAraPichi\\Desktop\\API REST\\hotelAPI\\hotelAPI.csproj",
+        "projectUniqueName": "C:\\Users\\EzeAraPichi\\Desktop\\TourApi\\TourApi\\hotelAPI\\hotelAPI.csproj",
         "projectName": "hotelAPI",
-        "projectPath": "C:\\Users\\EzeAraPichi\\Desktop\\API REST\\hotelAPI\\hotelAPI.csproj",
+        "projectPath": "C:\\Users\\EzeAraPichi\\Desktop\\TourApi\\TourApi\\hotelAPI\\hotelAPI.csproj",
         "packagesPath": "C:\\Users\\EzeAraPichi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EzeAraPichi\\Desktop\\API REST\\hotelAPI\\obj\\",
+        "outputPath": "C:\\Users\\EzeAraPichi\\Desktop\\TourApi\\TourApi\\hotelAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

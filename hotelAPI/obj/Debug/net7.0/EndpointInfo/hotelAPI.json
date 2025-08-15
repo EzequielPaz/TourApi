@@ -4,6 +4,19 @@
     "title": "hotelAPI",
     "version": "1.0"
   },
-  "paths": { },
+  "paths": {
+    "/api/Tour": {
+      "get": {
+        "tags": [
+          "Tour"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
   "components": { }
 }
