@@ -27,6 +27,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 //Mapea urls a una ruta
-//app.MapControllers();
+app.MapControllers();
 
 app.Run();

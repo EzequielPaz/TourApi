@@ -1,17 +1,25 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using hotelAPI.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace hotelAPI.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
     public class TourController : Controller
     {
-        public TourController()
+        private readonly AppDbContext context;
+
+        public TourController(AppDbContext context)
         {
+            this.context = context;
             
         }
-        public IActionResult Index()
+
+        [HttpGet]
+        public IActionResult GetAllTours()
         {
-            return View();
+            var AllTours = context.Tours.ToList();
+            return Ok(AllTours);
         }
     }
 }

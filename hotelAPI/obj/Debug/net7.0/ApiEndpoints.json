@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "hotelAPI.Controllers.TourController",
+    "Method": "GetAllTours",
+    "RelativePath": "api/Tour",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
