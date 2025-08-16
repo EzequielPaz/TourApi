@@ -1,25 +1,25 @@
-﻿using hotelAPI.Data;
+﻿using hotelAPI.BLL.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace hotelAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TourController : Controller
+    public class TourController : ControllerBase 
     {
-        private readonly AppDbContext context;
+        private readonly ITourService _service;
 
-        public TourController(AppDbContext context)
+        public TourController(ITourService service)
         {
-            this.context = context;
-            
+            _service = service;
         }
 
         [HttpGet]
-        public IActionResult GetAllTours()
+        public async Task<IActionResult> GetAllTours()
         {
-            var AllTours = context.Tours.ToList();
-            return Ok(AllTours);
+            var allTours = await _service.GetAllToursAsync();
+            return Ok(allTours);
         }
     }
 }
